@@ -1,0 +1,123 @@
+
+.who
+{
+	font-family: Century Gothic, 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 2.5em;
+	color: #6F6F6F;
+	text-align: center;
+	margin-top:20px;
+	margin-bottom:30px;
+	display: inline-block;
+	line-height: 1.5;
+}
+
+.row
+{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+/*********************************************************************************/
+/* Enactus Name Hexagons                                                                     */
+/*********************************************************************************/
+
+#enactus-hex
+{
+	padding-left: 15vw;
+	width: 90%;
+	background: #FFF;
+	text-align: center;
+	margin-top:2em;
+}
+
+.extra2 .icon
+{
+	font-size: 1.5em;
+}
+
+.extra2 .title h2
+{
+	font-size: 2em;
+}
+
+.extra2 .title .byline
+{
+	font-size: 0.80em;
+}
+
+.extra2{
+	width: 90%;
+}
+.extra2 .ebox1,
+.extra2 .ebox2,
+.extra2 .ebox3
+{
+	padding: 1em 1em 0 1em;
+	margin: 1em 0 1em 0;
+	float:left;
+	width:20%;
+}
+
+.hexagon {
+	margin: 0 auto 2em auto;
+	width: 120px;
+	height: 80px;
+	line-height: 80px;
+	background: #FFC000;
+	position: relative;
+	text-align: center;
+	color: #FFF;
+	font-size: 2em;
+}
+.hexagon:before {
+	content: "";
+	position: absolute;
+	top: -30px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom: 30px solid #FFC000;
+}
+.hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-top: 30px solid #FFC000;
+}
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+.title
+{
+	margin-bottom: 3em;
+}
+
+.title h2
+{
+	margin-bottom:.5em;
+	display:block;
+	font-weight: 400;
+	font-size: 2em;
+	color: #323232;
+}
+
+.title .byline
+{
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1.1em;
+	color: #6F6F6F;
+}
+

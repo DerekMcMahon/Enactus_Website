@@ -1,0 +1,340 @@
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body,input,textarea,select
+	{
+		line-height: 1.75em;
+		font-size: 11pt;
+		letter-spacing: 0;
+	}
+
+	body
+	{
+		padding-top: 44px;
+	}
+
+	h2, h3, h4, h5, h6
+	{
+		font-size: 1.5em;
+	}
+
+	section,
+	article
+	{
+		clear: both;
+		margin: 2em 0 2em 0 !important;
+	}
+
+	section > :first-child,
+	article > :first-child
+	{
+		margin-top: 0 !important;
+	}
+
+	section:first-child,
+	article:first-child
+	{
+		margin-top: 0 !important;
+	}
+
+	.container
+	{
+		padding: 0em 1em;
+	}
+	
+	.button
+	{
+		display: block;
+		width: 10%;
+		text-align: center;
+	}
+
+	header
+	{
+	}
+	
+		header h2
+		{
+			font-size: 1.6em;
+		}
+
+		header .byline
+		{
+			font-size: 1em;
+		}
+	
+/*********************************************************************************/
+/* UI                                                                            */
+/*********************************************************************************/
+
+	#titleBar
+	{
+		background: #202020 url(images/img01.jpg) repeat;
+	}
+
+		#titleBar img{
+			height:44px;
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+
+		#titleBar .title
+		{
+			display: block;
+			color: #fff;
+			text-align: center;
+			line-height: 44px;
+		}
+
+		#titleBar .toggle
+		{
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 80px;
+			height: 60px;
+		}
+
+			#titleBar .toggle:after
+			{
+				content: '';
+				display: block;
+				width: 20px;
+				height: 12px;
+				position: absolute;
+				left: 10px;
+				top: 15px;
+				background: url('images/toggle.svg') 0px 0px no-repeat;
+				opacity: 0.5;
+			}
+
+			#titleBar .toggle:active:after
+			{
+				opacity: 0.75;
+			}
+
+	#navPanel
+	{
+		background: #202020 url(images/img01.jpg) repeat;
+		box-shadow: inset -10px 0px 20px 0px rgba(0,0,0,0.5);
+	}
+
+		#navPanel .link
+		{
+			display: block;
+			color: #888;
+			text-decoration: none;
+			height: 44px;
+			line-height: 44px;
+			border-top: solid 1px rgba(255,255,255,0.1);
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			padding: 0 1em 0 1em;
+		}
+		
+			#navPanel .link:first-child
+			{
+				border-top: 0;
+			}
+			
+			#navPanel .link.depth-0
+			{
+				color: #fff;
+			}
+
+			#navPanel .indent-1 { display: inline-block; width: 1em; }
+			#navPanel .indent-2 { display: inline-block; width: 2em; }
+			#navPanel .indent-3 { display: inline-block; width: 3em; }
+			#navPanel .indent-4 { display: inline-block; width: 4em; }
+			#navPanel .indent-5 { display: inline-block; width: 5em; }
+			#navPanel .depth-0 { color: #fff; }
+			
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		display: none;
+	}
+
+	#logo
+	{
+		display: none;
+	}
+	
+	#nav
+	{
+		display: none;
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+	}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#page
+	{
+		padding: 2em 0em 2em 0em;
+	}
+
+	#main
+	{
+		padding-top: 0em;
+		border-top: none;
+	}
+
+	
+	.homepage #main
+	{
+		margin-top: 3em;
+		padding-top: 3em;
+	}
+
+	#col2 img{
+		width: 100% !important;
+		float: none !important;
+		margin-left: -8px !important;
+	}
+
+	#col1{
+		width: 100% !important;
+		text-align: center;
+	}
+
+	#col1 #tag{
+		font-size: 0.9em;
+	}
+
+	#col1 p{
+		margin:0 10px 10px 0 !important
+	}
+
+	#line-break{
+		padding-top: 5% !important;
+	}
+
+	#why-join img{
+		width: 100%;
+	}
+
+	#mobile-hide img{
+		display: none;
+	}
+
+	#mobile-display h1, #mobile-display p{
+		display: none;
+	}
+
+	#mobile-display img{
+		display: block;
+		margin: 0 auto;
+	}
+
+	#mobile-hide h1, #mobile-hide p{
+		display: block;
+	}
+
+	#why-join{
+		width: 90% !important;
+	}
+
+	#join-img{
+		width: 90% !important;
+	}
+
+	.line-break2{
+		padding: 10% 0 0 0 !important;
+	}
+
+	.line-break3 p{
+		line-height: 36px;
+	}
+
+	#line-break{
+		line-height: 36px;
+	}
+
+	.col-md-6{
+		text-align: center;
+	}
+
+	.mobile{
+		display: block !important;
+	}
+	.mobile-img{
+		display: block !important;
+	}
+	.mobile-hide{
+		display: none;
+	}
+
+	.press-container{
+		width: 95%;
+	}
+	.press-container img{
+		width: 70%;
+		height: auto;
+
+	}
+
+	.press-container .press-main-text{
+		top: 0 !important;
+	}
+	
+	.press-container .press-coverage-text{
+		text-align: center;
+	}
+
+	.team-members{
+		width: 90%;
+	}
+	.team-members div{
+		text-align: center;
+	}
+
+	#contain{
+		text-align: center;
+	}
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+	
+	#footer
+	{
+		padding: 0em 0em 2em 0em;
+	}
+	/**/
+/*/!*********************************************************************************!/*/
+/*/!* Featured                                                                      *!/*/
+/*/!*********************************************************************************!/*/
+	/**/
+	/*#featured*/
+	/*{*/
+		/*position: relative;*/
+		/*padding: 4em 0em 2em 0em;*/
+	/*}*/
+	/**/
+	/*#featured .divider*/
+	/*{*/
+		/*padding: 2em 0em 0em 0em;*/
+	/*}*/
+	/**/
+	/*#featured .left*/
+	/*{*/
+		/*float: none;*/
+		/*width: 100%;*/
+	/*}*/
+
+	.row{
+		margin:0px;
+	}
