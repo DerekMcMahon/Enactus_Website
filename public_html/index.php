@@ -16,6 +16,10 @@
     <link href="css/homepage.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/fonts.css" rel="stylesheet" type="text/css" media="all" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!--NavBar hiding-->
+    <link rel="stylesheet" href="css/header.css"/>
+    <script src="js/navbar.js"/>
+    <!--End Navbar hiding-->
     <script src="js/skel.min.js"></script>
     <script src="js/skel-panels.min.js"></script>
     <script src="js/init.js"></script>
@@ -34,42 +38,35 @@
 
 <body>
     <!-- Header -->
-    <div id="header">
-        <div class="container">
-            <!-- Logo -->
-            <div id="logo">
-            	<img src="images/transparentLOGO_medium.png" />
-          	</div>
-            <!-- Nav -->
-            <nav id="nav">
-                <ul>
-                    <li><a href="index.html" accesskey="1" title="" class="current_page_item">Homepage</a></li>
-                    <li><a href="about.html" accesskey="2" title="">About Us</a></li>
-                    <li><a href="projects.html" accesskey="3" title="">Our Projects</a></li>
-                    <li><a href="team.html" accesskey="4" title="">Our Team</a></li>
-                    <li><a href="press.html" accesskey="5" title="">Press</a></li>
-                    <li><a href="join.html" accesskey="5" title="">Join</a></li>
-                    <!-- <li><a href="#" title""> Donate </a></li> -->
-                </ul>
-            </nav>
-        </div>
-    </div>
+    <?php include("navbar.html") ?>
     <!-- Header -->
-    <div class="row">
+
+   <div class="container-fluid">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <p class="who">
+                We are the University of Virginia’s Enactus team,<br/>
+                addressing social, economic, and environmental concerns in the Charlottesville community.
+            </p>
+        </div>
+        <div class="col-md-1"></div>
+   </div>
+
+    <div class="container-fluid">
         <div class="col-md-1"></div>
         <div class="col-md-10">
             <div class="Collage effect-parent">
-                <div class="Image_Wrapper" data-caption="Our president Amy McMillen <a href='https://pbs.twimg.com/media/BtIAMEoCMAAJ48C.jpg'>link</a>">
+                <div class="Image_Wrapper" data-caption="2013 Regional Champions">
                     <a>
                         <img class="img-responsive" src="images/Trophy.jpg" />
                     </a>
                 </div>
-                <div class="Image_Wrapper" data-caption="Our president Amy McMillen <a href='https://pbs.twimg.com/media/BtIAMEoCMAAJ48C.jpg'>link</a>">
+                <div class="Image_Wrapper" data-caption="Benefit the community">
                     <a>
                         <img class="img-responsive" src="images/seb-sun.jpg" />
                     </a>
                 </div>
-                <div class="Image_Wrapper" data-caption="Our president Amy McMillen <a href='https://pbs.twimg.com/media/BtIAMEoCMAAJ48C.jpg'>link</a>">
+                <div class="Image_Wrapper" data-caption="Use your business skills in real projects">
                     <a>
                         <img class="img-responsive" src="images/11148601_489811607838976_6651349508281491241_n.jpg" />
                     </a>
@@ -79,12 +76,17 @@
                         <img class="img-responsive" src="images/exec/Amy_McMillen.jpg" />
                     </a>
                 </div>
-                <div class="Image_Wrapper" data-caption="Our president Amy McMillen <a href='https://pbs.twimg.com/media/BtIAMEoCMAAJ48C.jpg'>link</a>">
+                <div class="Image_Wrapper" data-caption="Last year's Enactus exec">
                     <a>
-                        <img class="img-responsive" src="images/exec/Amy_McMillen.jpg" />
+                        <img class="img-responsive" src="images/exec/group.jpg" />
                     </a>
                 </div>
-                <div class="Image_Wrapper" data-caption="Our president Amy McMillen <a href='https://pbs.twimg.com/media/BtIAMEoCMAAJ48C.jpg'>link</a>">
+                <div class="Image_Wrapper" data-caption="Our project leaders take service seriously">
+                    <a>
+                        <img class="img-responsive" src="images/pl/PL_claire.jpg"/>
+                    </a>
+                </div>
+                <div class="Image_Wrapper" data-caption="Our corporate sponsors and partners">
                     <a>
                         <img class="img-responsive" src="images/Corporate_Sponsors_Partners.png"/>
                     </a>
@@ -95,47 +97,47 @@
     </div>
 
    <div class="container-fluid">
-   		<p class="who">
-		We are the University of Virginia’s Enactus team. We apply business skills to our community projects to address social, economic, and environmental concerns in the Charlottesville community.
-		</p>
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+       		<p class="who">
+    		We are the University of Virginia’s Enactus team. We apply business skills to our community projects to address social, economic, and environmental concerns in the Charlottesville community.
+    		</p>
+        </div>
+        <div class="col-md-2"></div>
    </div>
 
    <div class="row">
-		<div id="enactus-hex">
-			<div class="col-md-4">
-				<div class="ebox1">
-					<center>
-                        <img class="img-responsive picture" src="images/home-universities-icon.png"/>
-                    </center>
-					<div class="title">
-						<h2><strong>En</strong>trepreneurial</h2>
-						<span class="byline">Having the perspective to see an opportunity and the talent to create value from that opportunity.</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="ebox2">
-					<center>
-                        <img class="img-responsive picture" src="images/home-students-icon.png" />
-                    </center>
-					<div class="title">
-						<h2><strong>Act</strong>ion</h2>
-						<span class="byline"> The willingness to do something and the commitment to see it through even when the outcome is not guaranteed.</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="ebox3">
-					<center>
-                        <img class="img-responsive picture" src="images/home-impact-icon.png" />
-                    </center>
-					<div class="title">
-						<h2><strong>Us</strong></h2>
-						<span class="byline">A group of people who see themselves connected in some important way; individuals that are part of a greater whole.</span>
-					</div>
-				</div>
-			</div>
-		</div>
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+    		<div class="col-md-4">
+    			<center>
+                    <img class="img-responsive picture" src="images/home-universities-icon.png"/>
+                </center>
+    			<div class="title">
+    				<h2><strong>En</strong>trepreneurial</h2>
+    				<span class="byline">Having the perspective to see an opportunity and the talent to create value from that opportunity.</span>
+    			</div>
+            </div>
+    		<div class="col-md-4">
+    			<center>
+                    <img class="img-responsive picture" src="images/home-students-icon.png" />
+                </center>
+    			<div class="title">
+    				<h2><strong>Act</strong>ion</h2>
+    				<span class="byline"> The willingness to do something and the commitment to see it through even when the outcome is not guaranteed.</span>
+    			</div>
+    		</div>
+    		<div class="col-md-4">
+    			<center>
+                    <img class="img-responsive picture" src="images/home-impact-icon.png" />
+                </center>
+    			<div class="title">
+    				<h2><strong>Us</strong></h2>
+    				<span class="byline">A group of people who see themselves connected in some important way; individuals that are part of a greater whole.</span>
+    			</div>
+    		</div>
+        </div>
+        <div class="col-md-2"></div>
 	</div>
 
 	<div class="row">
@@ -174,10 +176,10 @@
 
         <div class="row">
             <div class="col-md-6">
-                <header>
+                <!-- <header> -->
                     <h2>About Us</h2>
                     <span class="byline">Our mission: <p class="yellow">To inspire action.</p></span>
-                </header>
+                <!-- </header> -->
                 <h4> We empower our communities through business skills and entrpreneurship. </h4>
                 <p>
                     We are the Enactus team at the University of Virginia. Our community outreach projects have
@@ -349,10 +351,10 @@
     <!-- Main -->
     <div id="main" class="container">
         <div class="row">
-            <header>
+            <!-- <header> -->
                 <h2>Our Team</h2>
                 <span class="byline">The driving force behind Enactus at UVa!</span>
-            </header>
+            <!-- </header> -->
         </div>
 
         <div class="row">

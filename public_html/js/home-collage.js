@@ -12,7 +12,7 @@ function collage() {
     $('.Collage').removeWhitespace().collagePlus(
         {
             'fadeSpeed'     : 2000,
-            'targetHeight'  : 500
+            'targetHeight'  : 300
         }
     );
 };

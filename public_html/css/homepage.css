@@ -1,12 +1,11 @@
 .who
 {
 	font-family: Century Gothic, 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 2.5em;
+	font-size: 1.5em;
 	color: #6F6F6F;
-	text-align: center;
-	margin-top:100px;
-	margin-bottom:30px;
+	text-align: left;
+	/*Give space for navbar*/
+	margin-top:20px;
 	display: inline-block;
 	line-height: 1.5;
 }
@@ -53,9 +52,6 @@
 
     /* define how much padding you want in between your images */
     padding:10px;
-
-	/*Give space for the navbar*/
-    margin-top: 100px;
 }
 
 .Collage img{
