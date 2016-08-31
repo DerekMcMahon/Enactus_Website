@@ -1,4 +1,3 @@
-
 .who
 {
 	font-family: Century Gothic, 'Source Sans Pro', sans-serif;
@@ -6,7 +5,7 @@
 	font-size: 2.5em;
 	color: #6F6F6F;
 	text-align: center;
-	margin-top:20px;
+	margin-top:100px;
 	margin-bottom:30px;
 	display: inline-block;
 	line-height: 1.5;
@@ -18,88 +17,13 @@
 	margin-right: 0;
 }
 
-
-/*********************************************************************************/
-/* Enactus Name Hexagons                                                                     */
-/*********************************************************************************/
-
-#enactus-hex
-{
-	padding-left: 15vw;
-	width: 90%;
-	background: #FFF;
-	text-align: center;
-	margin-top:2em;
-}
-
-.extra2 .icon
-{
-	font-size: 1.5em;
-}
-
-.extra2 .title h2
-{
-	font-size: 2em;
-}
-
-.extra2 .title .byline
-{
-	font-size: 0.80em;
-}
-
-.extra2{
-	width: 90%;
-}
-.extra2 .ebox1,
-.extra2 .ebox2,
-.extra2 .ebox3
-{
-	padding: 1em 1em 0 1em;
-	margin: 1em 0 1em 0;
-	float:left;
-	width:20%;
-}
-
-.hexagon {
-	margin: 0 auto 2em auto;
-	width: 120px;
-	height: 80px;
-	line-height: 80px;
-	background: #FFC000;
-	position: relative;
-	text-align: center;
-	color: #FFF;
-	font-size: 2em;
-}
-.hexagon:before {
-	content: "";
-	position: absolute;
-	top: -30px;
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 60px solid transparent;
-	border-right: 60px solid transparent;
-	border-bottom: 30px solid #FFC000;
-}
-.hexagon:after {
-	content: "";
-	position: absolute;
-	bottom: -30px;
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 60px solid transparent;
-	border-right: 60px solid transparent;
-	border-top: 30px solid #FFC000;
-}
-
 /*********************************************************************************/
 /* Heading Titles                                                                */
 /*********************************************************************************/
 
 .title
 {
+	text-align: center;
 	margin-bottom: 3em;
 }
 
@@ -121,3 +45,57 @@
 	color: #6F6F6F;
 }
 
+
+/*********************************************************************************/
+/* Collage Plugin                                                                */
+/*********************************************************************************/
+.Collage{
+
+    /* define how much padding you want in between your images */
+    padding:10px;
+
+	/*Give space for the navbar*/
+    margin-top: 100px;
+}
+
+.Collage img{
+
+    /* ensures padding at the bottom of the image is correct */
+    vertical-align:bottom;
+
+    /* hide the images until the plugin has run. the plugin will reveal the images*/
+    opacity:0;
+}
+
+.Collage img{
+    margin:0;
+    padding:0;
+    display:inline-block;
+    vertical-align:bottom;
+    opacity:1;
+
+    /*This is where you set the border you want for the image*/
+    border:6px solid #FFF;
+}
+
+.Image_Wrapper{
+    /* to get the fade in effect, set opacity to 0 on the first element within the gallery area */
+    opacity:0;
+    -moz-box-shadow:0px 2px 4px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow:0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow:0px 2px 4px rgba(0, 0, 0, 0.1);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.Caption{
+    font-size:14px;
+    font-weight:normal;
+    font-family:arial;
+}
+.Caption_Content{
+    /* padding:10px; */
+    color:#FFF;
+    padding:20px;
+}
