@@ -9,15 +9,17 @@
     <meta name="keywords" content=""/>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700italic,400,300,700' rel='stylesheet'
           type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link href="css/homepage.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--End Bootstrap-->
     <!--NavBar hiding-->
-    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/navbar.css"/>
     <script src="js/navbar.js"/>
     <!--End Navbar hiding-->
     <script src="js/skel.min.js"></script>
@@ -96,19 +98,11 @@
         <div class="col-md-1"></div>
     </div>
 
-   <div class="container-fluid">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-       		<p class="who">
-    		We are the University of Virginia’s Enactus team. We apply business skills to our community projects to address social, economic, and environmental concerns in the Charlottesville community.
-    		</p>
-        </div>
-        <div class="col-md-2"></div>
-   </div>
+    <br/><br/>
 
    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
     		<div class="col-md-4">
     			<center>
                     <img class="img-responsive picture" src="images/home-universities-icon.png"/>
@@ -137,7 +131,7 @@
     			</div>
     		</div>
         </div>
-        <div class="col-md-2"></div>
+        <div class="col-md-1"></div>
 	</div>
 
 	<div class="row">
@@ -405,12 +399,10 @@
 </div>
 <!-- /Main -->
 
-<div id="copyright">
-    <div class="container">
-        <p>&copy; Enactus At UVa. All rights reserved. | Design by Derek McMahon 2016 </p>
-        <p style="font-weight:normal;font-size:12px;">Although this organization has members who are University of Virginia students and may have University employees associated or engaged in its activities and affairs, the organization is not a part of or an agency of the University. It is a separate and independent organization which is responsible for and manages its own activities and affairs. The University does not direct, supervise or control the organization and is not responsible for the organization’s contracts, acts or omissions.</p>
-    </div>
-</div>
+<!--footer-->
+<?php include("footer.html") ?>
+<!--footer-->
+
 </body>
 
 <script>

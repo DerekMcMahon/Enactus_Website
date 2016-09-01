@@ -1,0 +1,29 @@
+body {
+  padding-top: 100px;
+}
+
+header {
+	z-index: 1000;
+	opacity: .90;
+	position: fixed;
+	top: 0;
+	width:100%;
+	transition: top 0.2s ease-in-out;
+}
+
+.nav-up {
+  top: -100px;
+}
+
+
+/*TODO: Align tabs to the bottom, align dropdown to middles*/
+/*.alignBottom {
+	height:98px;
+    position: relative;
+}
+
+.alignBottom ul {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}*/

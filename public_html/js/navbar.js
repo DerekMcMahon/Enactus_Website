@@ -18,6 +18,7 @@ function hasScrolled() {
   	var st = $(this).scrollTop();
   	if(st > lastScrollTop && st > navbarHeight){
   		//They scrolled down
+      $(".navbar-collapse").collapse('hide');
   		$('header').removeClass('nav-down').addClass('nav-up');
   	} else {
   		if(st + $(window).height() < $(document).height()) { 
