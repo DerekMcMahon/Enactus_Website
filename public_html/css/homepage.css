@@ -91,7 +91,19 @@
     font-family:arial;
 }
 .Caption_Content{
-    /* padding:10px; */
     color:#FFF;
     padding:20px;
+}
+
+/*Separators for alternating sections of the homepage*/
+
+.portion_grey{
+    background-color: #F8F8F8;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.portion_white{
+    padding-top: 50px;
+    padding-bottom: 40px;
 }

@@ -15,7 +15,9 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
-
+body{
+	overflow-x: hidden;
+}
 
 	body,input,textarea,select
 	{
@@ -94,26 +96,14 @@
         display: inline;
     }
 
-	header
-	{
-		margin-bottom: 2em;
-		line-height: 1.7em;
-	}
-	
-		header h2
-		{
-			font-size: 2.5em;
-            color: #0096d6;
-		}
-
-		header .byline
-		{
-			display: block;
-			margin: 0.5em 0 0 0;
-			padding: 0 0 0.5em 0;
-			text-transform: uppercase;
-			font-size: 1.4em;
-		}
+.byline
+{
+	display: block;
+	margin: 0.5em 0 0 0;
+	padding: 0 0 0.5em 0;
+	text-transform: uppercase;
+	font-size: 1.75em;
+}
 		
 	footer
 	{

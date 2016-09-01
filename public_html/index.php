@@ -7,10 +7,7 @@
 	<title>Enactus at the University of Virginia</title>
     <meta name="description" content=""/>
     <meta name="keywords" content=""/>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700italic,400,300,700' rel='stylesheet'
-          type='text/css'>
     <link href="css/homepage.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/fonts.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Boostrap -->
@@ -22,8 +19,6 @@
     <link rel="stylesheet" href="css/navbar.css"/>
     <script src="js/navbar.js"/>
     <!--End Navbar hiding-->
-    <script src="js/skel.min.js"></script>
-    <script src="js/skel-panels.min.js"></script>
     <script src="js/init.js"></script>
     <!--Collage files-->
     <script src="js/jquery.collagePlus.min.js"></script>
@@ -54,7 +49,7 @@
         <div class="col-md-1"></div>
    </div>
 
-    <div class="container-fluid">
+    <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
             <div class="Collage effect-parent">
@@ -100,7 +95,7 @@
 
     <br/><br/>
 
-   <div class="row">
+   <div class="row portion_grey">
         <div class="col-md-1"></div>
         <div class="col-md-10">
     		<div class="col-md-4">
@@ -109,7 +104,7 @@
                 </center>
     			<div class="title">
     				<h2><strong>En</strong>trepreneurial</h2>
-    				<span class="byline">Having the perspective to see an opportunity and the talent to create value from that opportunity.</span>
+    				<span class="byline">The perspective and talent to create value from opportunity.</span>
     			</div>
             </div>
     		<div class="col-md-4">
@@ -118,7 +113,7 @@
                 </center>
     			<div class="title">
     				<h2><strong>Act</strong>ion</h2>
-    				<span class="byline"> The willingness to do something and the commitment to see it through even when the outcome is not guaranteed.</span>
+    				<span class="byline"> The willingness to do something and the commitment to see it through.</span>
     			</div>
     		</div>
     		<div class="col-md-4">
@@ -127,277 +122,125 @@
                 </center>
     			<div class="title">
     				<h2><strong>Us</strong></h2>
-    				<span class="byline">A group of people who see themselves connected in some important way; individuals that are part of a greater whole.</span>
+    				<span class="byline">Individuals that are part of a greater whole.</span>
     			</div>
     		</div>
         </div>
         <div class="col-md-1"></div>
 	</div>
 
-	<div class="row">
-    	<div class="col-md-12">
-	    	<center>
-	    		<img class="img-responsive" src="images/welcome.jpg" />
-	    	</center>
-	    </div>
-    </div>
-
-    <div class="row">
-    	<div class="col-md-3"></div>
-    	<div class="col-md-3">
-			<p>
-				<strong>Interested in joining a project team? </strong>
-				Want to be an entrepreneur and change the world? Want to work with a great team and develop real-world business experience? Then Enactus is for you. Learn about us to see how to get involved.
-        		<a href="about.html" class="button">></a>    	
-        	</p>
-	    </div>
-
-	    <div class="col-md-3">
-			<p>
-				<strong>Donate to Enactus at UVa: </strong>
-				Want to make a tax-deductible contribution to Enactus? Click to make a donation through the UVA Alumni office.
-				<a href="#" class="button">></a>
-			</p>
-	    </div>
-	    <div class="col-md-3"></div>
-	</div>
-
-	<!-- Main -->
-<div id="page">
-
-    <!-- Main -->
-    <div id="main" class="container">
-
-        <div class="row">
+    <div class="row portion_white">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
             <div class="col-md-6">
-                <!-- <header> -->
-                    <h2>About Us</h2>
-                    <span class="byline">Our mission: <p class="yellow">To inspire action.</p></span>
-                <!-- </header> -->
-                <h4> We empower our communities through business skills and entrpreneurship. </h4>
-                <p>
-                    We are the Enactus team at the University of Virginia. Our community outreach projects have
-                    reached thousands of individuals locally in Charlottesville. Every year we run around seven projects working with local clients in the community to affect sustainable change.
-                </p>
-
-                <p>
-                    <i>Seeing possibilities. Taking action. Enabling progress.</i>
-                </p>
+                <img class="img-responsive" src="images/exec/group.jpg" width=500px/>
             </div>
-            <div class="col-md-6">
-                <img class="img-responsive" src="images/11148601_489811607838976_6651349508281491241_n.jpg"/>
+            <div class="col-md-6" style="margin-top:5%;">
+                <h1>Turn ideas into action.</h1>
+                We have seven local projects that let you meet with clients face to face and work on real problems with real solutions.
+
+                Each of our projects are different. You could learn how to market a business, or
+                you could teach refugees job skills. You could start something new and lead a team of
+                your own.
+
+                No matter what project you join, you’ll learn how to work with a team to make a real
+                impact in our community.
             </div>
         </div>
+        <div class="col-md-1"></div>
+    </div>
 
-        <div class="row">
-            <div class="col-md-12">
+    <div class="row portion_grey">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <div class="col-md-6" style="margin-top:5%;">
+                <h1>Join the global Enactus community.</h1>
+                Enactus is an international organization at 1,500 universities around the world.
+
+                Each spring, we head to the Enactus National Exposition. We compete against hundreds of
+                other
+                Enactus teams from across the country to see who was best able to empower and impact
+                their
+                community. The winner goes on to represent the United States in the Enactus World Cup.
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="images/Enactus_Map.png"/>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+
+    <div class="row portion_white">
+        <div class="col-md-12">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
                 <div class="line-break">
                     <center>
                         Here's what we've been working on:
                     </center>
                 </div>
-            </div>
+                <div class="col-md-4">
+                    <strong>Giv2Giv</strong><br/>
 
-            <div id="current-work">
+                    Giv2giv is a social venture designed to solve a critical problem: currently in the U.S.
+                    large charities absorb the
 
-                <div class="row">
-                    <div class="col-md-4">
-                        <strong>Giv2Giv</strong><br/>
+                    majority of donated funds and are able to put them in an endowment for investment,
+                    allowing
+                    idle funds to “grow”;
 
-                        Giv2giv is a social venture designed to solve a critical problem: currently in the U.S.
-                        large charities absorb the
+                    however, smaller charities cannot do this and they are forced to put more energy into
+                    seeking for funds constantly.
 
-                        majority of donated funds and are able to put them in an endowment for investment,
-                        allowing
-                        idle funds to “grow”;
+                    Giv2giv.org aims to make it possible for every person, every organization, regardless of
+                    their net worth, to be able to
 
-                        however, smaller charities cannot do this and they are forced to put more energy into
-                        seeking for funds constantly.
-
-                        Giv2giv.org aims to make it possible for every person, every organization, regardless of
-                        their net worth, to be able to
-
-                        have a “mini endowment” that grows overtime and eventually become self­sustainable.
-                    </div>
-                    <div class="col-md-4">
-                        <strong>Women in Entrepreneurship</strong>
-                        <br/>
-                        Women in
-                        Entrepreneurship
-                        assists local business run by female entrepreneurs with many aspects of the business
-                        development. This year the client is a female consultant whose business is specialized
-                        in
-                        consulting services on wardrobe consulting (e.g. how to wear clothes that match the hair
-                        color)
-                        and career development. The team will have close interaction with the client and assist
-                        its need
-                        along the time to ensure that the business is able to bring social impact to the
-                        community.
-                    </div>
-                    <div class="col-md-4">
-                        <strong>Tranlin</strong><br/>
-                        Tranlin, Inc. is the U.S. subsidiary of Shandong Tranlin Paper Co., Ltd. The company is
-                        an
-                        international pioneer in the development of environmentally-friendly technologies that
-                        applies innovative proprietary technologies to deliver 100% straw paper products and
-                        organic
-                        fertilizers. This venture is backed by the $2 billion investment announced on June 18th,
-                        2014 by Governor McAuliffe and widely reported by national media and local newspapers.
-                        Tranlin started with a team of most capable and entrepreneurial professional managers
-                        and is
-                        striving to bring the innovative technology and eco-friendly products to the U.S.
-                        market.
-                    </div>
+                    have a “mini endowment” that grows overtime and eventually become self­sustainable.
+                </div>
+                <div class="col-md-4">
+                    <strong>Women in Entrepreneurship</strong>
+                    <br/>
+                    Women in
+                    Entrepreneurship
+                    assists local business run by female entrepreneurs with many aspects of the business
+                    development. This year the client is a female consultant whose business is specialized
+                    in
+                    consulting services on wardrobe consulting (e.g. how to wear clothes that match the hair
+                    color)
+                    and career development. The team will have close interaction with the client and assist
+                    its need
+                    along the time to ensure that the business is able to bring social impact to the
+                    community.
+                </div>
+                <div class="col-md-4">
+                    <strong>Tranlin</strong><br/>
+                    Tranlin, Inc. is the U.S. subsidiary of Shandong Tranlin Paper Co., Ltd. The company is
+                    an
+                    international pioneer in the development of environmentally-friendly technologies that
+                    applies innovative proprietary technologies to deliver 100% straw paper products and
+                    organic
+                    fertilizers. This venture is backed by the $2 billion investment announced on June 18th,
+                    2014 by Governor McAuliffe and widely reported by national media and local newspapers.
+                    Tranlin started with a team of most capable and entrepreneurial professional managers
+                    and is
+                    striving to bring the innovative technology and eco-friendly products to the U.S.
+                    market.
                 </div>
             </div>
+            <div class="col-md-1"></div>
         </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <div class="line-break">
-                    <center>
-                        Here's why you should join:
-                    </center>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="img-responsive" src="images/exec/group.jpg" width=500px/>
-                </div>
-                <div class="col-md-6" style="margin-top:5%;">
-                    <h1>You learn how to turn ideas into action.</h1>
-                    We have seven local projects that let you meet with clients face to face and work on real problems with real solutions.
-
-                    Each of our projects are different. You could learn how to market a business, or
-                    you could teach refugees job skills. You could tart something new and lead a team of
-                    your own.
-
-                    No matter what project you join, you’ll learn how to work with a team to make a real
-                    impact in our community.
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6" id="mobile-display" style="margin-top:5%;">
-                    <img class="img-responsive" src="images/Corporate_Sponsors_Partners.png" width=500px/>
-                    <h1>You’ll join the global Enactus community.</h1>
-                    <p>Enactus is an international organization at 1,500 universities around the world.
-
-                    Each spring, we head to the Enactus National Exposition. We compete against hundreds of
-                    other
-                    Enactus teams from across the country to see who was best able to empower and impact
-                    their
-                    community. The winner goes on to represent the United States in the Enactus World Cup.</p>
-                </div>
-                <div class="col-md-6" id="mobile-hide">
-                    <img class="img-responsive" src="images/Corporate_Sponsors_Partners.png" width=500px/>
-                    <h1>You’ll join the global Enactus community.</h1>
-                    <p>Enactus is an international organization at 1,500 universities around the world.
-
-                    Each spring, we head to the Enactus National Exposition. We compete against hundreds of
-                    other
-                    Enactus teams from across the country to see who was best able to empower and impact
-                    their
-                    community. The winner goes on to represent the United States in the Enactus World Cup.</p>
-               </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="img-responsive" src="images/seb-sun.JPG" width=500px/>
-                </div>
-
-                <div class="col-md-6" style="margin-top:5%;"><h1>Enactus sponsors love to hire Enactus students.</h1>
-                    From Microsoft to Coca-Cola to Wal-Mart, Enactus has hundreds of corporate sponsors. Top
-                    executives from these companies judge teams at competition, but they also look to
-                    recruit
-                    Enactus students for jobs and internships.
-
-                    These sponsors know that Enactus experience is job experience. They know Enactus
-                    students are
-                    creative, innovative, and forward thinking. Some employers even reserve jobs and
-                    internships
-                    solely for Enactus students.
-                </div>
-            </div>
-
-        </div>
-
-        <div class="col-mod-12">
-            <center>
-                <div id="line-break3" style="padding-top:100px"><h2 style="font-size: 34px">Ready to Join?<a
-                        href="join.html" class="button"
-                        style="font-size:12px; margin-bottom:15px; margin-left:5px">></a></h2></div>
-                <p style="color:#0096d6; font-size:20px">We can't wait to meet you!</p>
-            </center>
-        </div>
-
     </div>
-    <!-- Main -->
 
-</div>
-<!-- /Main -->
-
-<!-- Main -->
-<div id="page">
-
-    <!-- Main -->
-    <div id="main" class="container">
-        <div class="row">
-            <!-- <header> -->
-                <h2>Our Team</h2>
-                <span class="byline">The driving force behind Enactus at UVa!</span>
-            <!-- </header> -->
-        </div>
-
-        <div class="row">
-            <div class="col-md-4">
-                <center>
-                    <img src="images/exec/Amy_McMillen.jpg"/>
-                    <p> Amy McMillen, <em>President</em></p>
-                </center>
+    <div class="row" style="padding-top:20px; padding-bottom: 20px;">
+        <center>
+            <div id="line-break3" >
+                <h2 style="font-size: 34px">Ready to Join?
+                    <a href="join.html" class="button"  style="font-size:12px; margin-bottom:15px;">></a>
+                </h2>
             </div>
-            <div class="col-md-4">
-                <center>
-                    <img src="images/exec/Derek_McMahon.jpg"/>
-                    <p> Derek McMahon, <em>Vice President of Technology</em></p>
-                </center>
-            </div>
-            <div class="col-md-4">
-                <center>
-                    <img src="images/exec/Rahul_Kapoor.jpg"/>
-                    <p> Rahul Kapoor, <em>Vice President of Projects</em></p>
-                </center>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4">
-                <center>
-                    <img src="images/exec/Emmy_Hodges.jpg"/>
-                    <p> Emmy Hodges, <em>Vice President of Marketing</em></p>
-                </center>
-            </div>
-            <div class="col-md-4">
-                <center>
-                    <img src="images/exec/Penny_Xu.jpg"/>
-                    <p> Penny Xu, <em>Vice President of Finance</em></p>
-                </center>
-            </div>
-            <div class="col-md-4">
-                <center>
-                    <img src="images/exec/Augustus_Huang.jpg"/>
-                    <p> Augustus Huang, <em>Vice President of Corporate Relations</em></p>
-                </center>
-            </div>
-        </div>
-
+            <p style="color:#0096d6; font-size:20px">We can't wait to meet you!</p>
+        </center>
     </div>
-    <!-- Main -->
-
-</div>
-<!-- /Main -->
 
 <!--footer-->
 <?php include("footer.html") ?>
