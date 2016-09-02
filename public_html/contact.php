@@ -32,6 +32,9 @@
 <body>
   <!-- Header -->
   <?php include("navbar.html") ?>
+  <script>
+      $('.nav a:contains("Contact")').parent().addClass('active');
+  </script>
   <!-- Header -->
 
     <div class="row" style="padding-top:20px;">

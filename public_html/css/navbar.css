@@ -12,13 +12,11 @@ header {
 }
 
 .nav-up {
-  top: -100px;
+  top: -105px;
 }
 
-
-/*TODO: Align tabs to the bottom, align dropdown to middles*/
-/*.alignBottom {
-	height:98px;
+.alignBottom {
+	min-height:100px;
     position: relative;
 }
 
@@ -26,4 +24,8 @@ header {
     position: absolute;
     bottom: 0;
     right: 0;
-}*/
+}
+
+.alignMiddle {
+	margin-top:30px;
+}

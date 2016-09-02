@@ -13,6 +13,7 @@
     <meta name="keywords" content=""/>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/footer.css" rel="stylesheet" type="text/css" media="all"/>
+
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Boostrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -30,8 +31,11 @@
     </noscript>
 </head>
 <body>
- <!-- Header -->
+  <!-- Header -->
   <?php include("navbar.html") ?>
+  <script>
+      $('.nav a:contains("Join")').parent().addClass('active');
+  </script>
   <!-- Header -->
 
   <div class="row" style="padding-top: 50px; padding-bottom: 40px;">

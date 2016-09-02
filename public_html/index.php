@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,9 +18,9 @@
     <!--NavBar hiding-->
     <link rel="stylesheet" href="css/navbar.css"/>
     <script src="js/navbar.js"/>
+    <script src="js/init.js"></script>
     <!--End Navbar hiding-->
     <!--Collage files-->
-    <script src="js/init.js"></script>
     <script src="js/jquery.collagePlus.min.js"></script>
     <script src="js/jquery.collageCaption.min.js"></script>
     <script src="js/jquery.removeWhitespace.min.js"></script>
@@ -35,6 +34,9 @@
 <body>
     <!-- Header -->
     <?php include("navbar.html") ?>
+    <script>
+        $('.nav a:contains("Home")').parent().addClass('active');
+    </script>
     <!-- Header -->
 
    <div class="container-fluid">
