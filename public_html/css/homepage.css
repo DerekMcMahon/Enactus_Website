@@ -99,6 +99,7 @@
 
 .portion_grey{
     background-color: #F8F8F8;
+    /*background-color: #F6F6F6;*/
     padding-top: 50px;
     padding-bottom: 40px;
 }
@@ -106,4 +107,8 @@
 .portion_white{
     padding-top: 50px;
     padding-bottom: 40px;
+}
+
+.project_column{
+    padding-top: 20px;
 }

@@ -427,34 +427,6 @@ body{
 	{
 		color: rgba(255,255,255,.7);
 	}
-	
-/*********************************************************************************/
-/* Copyright                                                                     */
-/*********************************************************************************/
-	
-	#copyright
-	{
-		position: relative;
-		padding: 3em 0em;
-		border-top: 1px solid #303030;
-		letter-spacing: 1px;
-		text-align: center;
-		color: rgba(255,255,255,.4);
-        background: #515356;
-        width:100%;
-	}
-	
-	#copyright .container
-	{
-        background: #515356;
-        width:75%;
-	}
-	
-	#copyright a
-	{
-		text-decoration: none;
-		color: rgba(255,255,255,.4) !important;
-	}
 
 /*********************************************************************************/
 /* Marketing                                                                     */
@@ -607,4 +579,17 @@ h2, .button
 .picture
 {
 	margin: 20px;
+}
+
+/*********************************************************************************/
+/* Team pictures                                                         */
+/*********************************************************************************/
+
+.team{
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+.name{
+	font-size:1.3em;
 }

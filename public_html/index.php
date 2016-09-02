@@ -9,6 +9,7 @@
     <meta name="keywords" content=""/>
     <link href="css/homepage.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/footer.css" rel="stylesheet" type="text/css" media="all"/>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Boostrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -19,20 +20,18 @@
     <link rel="stylesheet" href="css/navbar.css"/>
     <script src="js/navbar.js"/>
     <!--End Navbar hiding-->
-    <script src="js/init.js"></script>
     <!--Collage files-->
+    <script src="js/init.js"></script>
     <script src="js/jquery.collagePlus.min.js"></script>
     <script src="js/jquery.collageCaption.min.js"></script>
     <script src="js/jquery.removeWhitespace.min.js"></script>
     <script src="js/home-collage.js"></script>
     <!--End Collage files-->
     <noscript>
-        <link rel="stylesheet" href="css/skel-noscript.css"/>
         <link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet" href="css/style-desktop.css"/>
     </noscript>
 </head> 
-
 <body>
     <!-- Header -->
     <?php include("navbar.html") ?>
@@ -65,7 +64,7 @@
                 </div>
                 <div class="Image_Wrapper" data-caption="Use your business skills in real projects">
                     <a>
-                        <img class="img-responsive" src="images/11148601_489811607838976_6651349508281491241_n.jpg" />
+                        <img class="img-responsive" src="images/we_see_opportunity.jpg" />
                     </a>
                 </div>
                 <div class="Image_Wrapper" data-caption="Our president Amy McMillen <a href='https://pbs.twimg.com/media/BtIAMEoCMAAJ48C.jpg'>link</a>">
@@ -135,7 +134,7 @@
             <div class="col-md-6">
                 <img class="img-responsive" src="images/exec/group.jpg" width=500px/>
             </div>
-            <div class="col-md-6" style="margin-top:5%;">
+            <div class="col-md-6" style="margin-top:4%;">
                 <h1>Turn ideas into action.</h1>
                 We have seven local projects that let you meet with clients face to face and work on real problems with real solutions.
 
@@ -153,7 +152,7 @@
     <div class="row portion_grey">
         <div class="col-md-1"></div>
         <div class="col-md-10">
-            <div class="col-md-6" style="margin-top:5%;">
+            <div class="col-md-6" style="margin-top:3%;">
                 <h1>Join the global Enactus community.</h1>
                 Enactus is an international organization at 1,500 universities around the world.
 
@@ -179,7 +178,7 @@
                         Here's what we've been working on:
                     </center>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project_column">
                     <strong>Giv2Giv</strong><br/>
 
                     Giv2giv is a social venture designed to solve a critical problem: currently in the U.S.
@@ -197,7 +196,7 @@
 
                     have a “mini endowment” that grows overtime and eventually become self­sustainable.
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project_column">
                     <strong>Women in Entrepreneurship</strong>
                     <br/>
                     Women in
@@ -212,7 +211,7 @@
                     along the time to ensure that the business is able to bring social impact to the
                     community.
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project_column">
                     <strong>Tranlin</strong><br/>
                     Tranlin, Inc. is the U.S. subsidiary of Shandong Tranlin Paper Co., Ltd. The company is
                     an
@@ -235,7 +234,7 @@
         <center>
             <div id="line-break3" >
                 <h2 style="font-size: 34px">Ready to Join?
-                    <a href="join.html" class="button"  style="font-size:12px; margin-bottom:15px;">></a>
+                    <a href="join.php" class="button"  style="font-size:12px; margin-bottom:15px;">></a>
                 </h2>
             </div>
             <p style="color:#0096d6; font-size:20px">We can't wait to meet you!</p>
