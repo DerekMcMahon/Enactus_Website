@@ -38,7 +38,7 @@
   </script>
   <!-- Header -->
 
-  <div class="row" style="padding-top: 50px; padding-bottom: 40px;">
+  <div class="row" style="padding-top: 50px;">
     <div class="col-md-1"></div>
     <div class="col-md-10">
       <center>

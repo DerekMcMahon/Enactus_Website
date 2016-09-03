@@ -134,7 +134,9 @@
         <div class="col-md-1"></div>
         <div class="col-md-10">
             <div class="col-md-6">
-                <img class="img-responsive" src="images/exec/group.jpg" width=500px/>
+                <center>
+                    <img class="img-responsive" src="images/exec/group.jpg" width=500px/>
+                </center>
             </div>
             <div class="col-md-6" style="margin-top:4%;">
                 <h1>Turn ideas into action.</h1>
@@ -164,7 +166,7 @@
                 their
                 community. The winner goes on to represent the United States in the Enactus World Cup.
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" style="padding-top:20px">
                 <img class="img-responsive" src="images/Enactus_Map.png"/>
             </div>
         </div>

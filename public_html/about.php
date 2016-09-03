@@ -54,46 +54,41 @@
                 </p>
             </div>
             <div class="col-md-8">
-                <div class="row">
-                    <div class="col-md-4">
-                        <center>
-                            <img class="team" src="images/exec/Amy_McMillen.jpg"/>
-                            <p class="name"> Amy McMillen,<br/><em>President</em></p>
-                        </center>
-                    </div>
-                    <div class="col-md-4">
-                        <center>
-                            <img class="team" src="images/exec/Derek_McMahon.jpg"/>
-                            <p class="name"> Derek McMahon,<br/><em>Vice President of Technology</em></p>
-                        </center>
-                    </div>
-                    <div class="col-md-4">
-                        <center>
-                            <img class="team" src="images/exec/Rahul_Kapoor.jpg"/>
-                            <p class="name"> Rahul Kapoor,<br/><em>Vice President of Projects</em></p>
-                        </center>
-                    </div>
+                <div class="col-md-4 col-sm-6">
+                    <center>
+                        <img class="team" src="images/exec/Amy_McMillen.jpg"/>
+                        <p class="name"> Amy McMillen,<br/><em>President</em></p>
+                    </center>
                 </div>
-
-                <div class="row">
-                    <div class="col-md-4">
-                        <center>
-                            <img class="team" src="images/exec/Emmy_Hodges.jpg"/>
-                            <p class="name"> Emmy Hodges,<br/><em>Vice President of Marketing</em></p>
-                        </center>
-                    </div>
-                    <div class="col-md-4">
-                        <center>
-                            <img class="team" src="images/exec/Penny_Xu.jpg"/>
-                            <p class="name"> Penny Xu,<br/><em>Vice President of Finance</em></p>
-                        </center>
-                    </div>
-                    <div class="col-md-4">
-                        <center>
-                            <img class="team" src="images/exec/Augustus_Huang.jpg"/>
-                            <p class="name"> Augustus Huang,<br/><em>Vice President of Corporate Relations</em></p>
-                        </center>
-                    </div>
+                <div class="col-md-4 col-sm-6">
+                    <center>
+                        <img class="team" src="images/exec/Derek_McMahon.jpg"/>
+                        <p class="name"> Derek McMahon,<br/><em>Vice President of Technology</em></p>
+                    </center>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <center>
+                        <img class="team" src="images/exec/Rahul_Kapoor.jpg"/>
+                        <p class="name"> Rahul Kapoor,<br/><em>Vice President of Projects</em></p>
+                    </center>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <center>
+                        <img class="team" src="images/exec/Emmy_Hodges.jpg"/>
+                        <p class="name"> Emmy Hodges,<br/><em>Vice President of Marketing</em></p>
+                    </center>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <center>
+                        <img class="team" src="images/exec/Penny_Xu.jpg"/>
+                        <p class="name"> Penny Xu,<br/><em>Vice President of Finance</em></p>
+                    </center>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <center>
+                        <img class="team" src="images/exec/Augustus_Huang.jpg"/>
+                        <p class="name"> Augustus Huang,<br/><em>Vice President of Corporate Relations</em></p>
+                    </center>
                 </div>
             </div>
         </div>

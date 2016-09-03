@@ -37,83 +37,78 @@
   </script>
   <!-- Header -->
 
-    <div class="row" style="padding-top:20px;">
-      <div class = "col-md-12">
-          <center>
-              <h2 style="font-size: 1.7em; color: #0096d6; text-transform: none;">Questions? Here's who to contact:</h2>
-          </center>
-      </div>
-    </div>
-
-<!--   <div class="row" style="padding-top: 50px; padding-bottom: 40px;">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-      <div class="col-md-8">
-        <h1>For any questions about enactus</h1>
-      </div>
-
-      <div class="col-md-4">
+  <div class="row" style="padding-top:20px;">
+    <div class = "col-md-12">
         <center>
-          <img src="images/exec/Amy_McMillen.jpg" style="border-radius:50%;"/>
-          <br/>Amy McMillen<br/><em>President</em><br/>
-              ahm5ka@virginia.edu
+            <h2 style="font-size: 1.7em; color: #0096d6; text-transform: none;">Questions? Here's who to contact:</h2>
+        </center>
+    </div>
+  </div>
+    
+  <div class="row" style="margin-top:50px; margin-bottom:30px;">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <div class="col-md-6">
+        <center>
+          <p class="name"><br/><em>For any questions about Enactus:</em></p>
         </center>
       </div>
+      <div class="col-md-6">
+        <center>
+            <p class="name"> Amy McMillen,<br/><em>President</em></p>
+            <p>ahm5ka@virginia.edu</p>
+        </center>     
+      </div>
     </div>
-    <div class="col-md-1"></div>
-  </div> -->
+    <div class="col-md-2"></div>
+  </div>
 
-    <div class="row" style="margin-top:30px; margin-bottom:30px;">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="col-md-8">
-          <div class="col-md-1"></div>
-          <div class="col-md-4">
-              <center>
-                  <img src="images/exec/Amy_McMillen.jpg" style="border-radius:50%; margin-bottom:20px;"/>
-                  <p class="name"> Amy McMillen,<br/><em>President</em></p>
-                  <p>Contact for any questions about Enactus!</p>
-                  <p>ahm5ka@virginia.edu</p>
-              </center>
-          </div>
-          <div class="col-md-2"></div>
-          <div class="col-md-4">
-              <center>
-                  <img src="images/exec/Derek_McMahon.jpg" style="border-radius:50%; margin-bottom:20px;"/> 
-                  <p class="name"> Derek McMahon,<br/><em>Vice President of Technology</em></p>
-                  <p>Contact for any website questions or suggestions</p>
-                  <p>dmm7aj@virginia.edu</p>
-              </center>
-          </div>
-          <div class="col-md-1"></div>
-        </div>
-        <div class="col-md-4">
-          <div class="col-md-2"></div>
-          <div class="col-md-8">
-            <center>
-              <img src="images/exec/group_small.jpg" style="border-radius:50%; margin-bottom:20px;"/> 
-              <p class="name"> Executive Board,<br/><em>Feel free to contact the rest of our executive board:</em></p>
-                <table>
-                  <tr>
-                    <td style="padding-right:10px"><p> Emmy Hodges,<br/><em>VP of Marketing</em></p></td>
-                    <td>eh4fr@virginia.edu</td>
-                  </tr>
-                  <tr>
-                    <td style="padding-right:10px"><p> Penny Xu,<br/><em>VP of Finance</em></p></td>
-                    <td>jx4sy@virginia.edu</td>
-                  </tr>
-                  <tr>
-                    <td style="padding-right:10px"><p> Augustus Huang,<br/><em>VP of Corporate Relations</em></p></td>
-                    <td>ash5hb@virginia.edu </td>
-                  </tr>
-                </table>
-            </center>
-          </div>
-          <div class="col-md-2"></div>
-        </div>
+  <div class="row" style="margin-top:50px; margin-bottom:30px;">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <div class="col-md-6">
+        <center>
+          <p class="name"><br/><em>For any website questions or suggestions:</em></p>
+        </center>
+      </div>
+      <div class="col-md-6">
+        <center>
+            <p class="name"> Derek McMahon,<br/><em>Vice President of Technology</em></p>
+            <p>dmm7aj@virginia.edu</p>
+        </center>      
+      </div>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+
+  <div class="row" style="margin-top:50px; margin-bottom:30px;">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <div class="col-md-6">
+        <center>
+          <p class="name"><br/><em>Feel free to contact the rest of our executive board:</em></p>
+        </center>
       </div>
       <div class="col-md-1"></div>
+      <div class="col-md-5">
+        <table>
+          <tr>
+            <td><p> Emmy Hodges,<br/><em>VP of Marketing</em></p></td>
+            <td>eh4fr@virginia.edu</td>
+          </tr>
+          <tr>
+            <td style="padding-right:10px"><p> Penny Xu,<br/><em>VP of Finance</em></p></td>
+            <td>jx4sy@virginia.edu</td>
+          </tr>
+          <tr>
+            <td style="padding-right:10px"><p> Augustus Huang,<br/><em>VP of Corporate Relations</em></p></td>
+            <td>ash5hb@virginia.edu </td>
+          </tr>
+        </table>
+      </div>
     </div>
+    <div class="col-md-2"></div>
+  </div>
 
   <!-- Header -->
     <?php include("footer.html") ?>
