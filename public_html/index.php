@@ -44,7 +44,7 @@
         <div class="col-md-10">
             <p class="who">
                 We are the University of Virginia’s Enactus team,<br/>
-                addressing social, economic, and environmental concerns in the Charlottesville community.
+                using social entrepreneurship and consulting to empower the Charlottesville community.
             </p>
         </div>
         <div class="col-md-1"></div>
@@ -54,14 +54,9 @@
         <div class="col-md-1"></div>
         <div class="col-md-10">
             <div class="Collage effect-parent">
-                <div class="Image_Wrapper" data-caption="2013 Regional Champions">
+                <div class="Image_Wrapper" data-caption="Welcome to Enactus at UVa!">
                     <a>
-                        <img class="img-responsive" src="images/Trophy.jpg" />
-                    </a>
-                </div>
-                <div class="Image_Wrapper" data-caption="Benefit the community">
-                    <a>
-                        <img class="img-responsive" src="images/seb-sun.jpg" />
+                        <img class="img-responsive" src="images/enactus-uvalogo.png"/>
                     </a>
                 </div>
                 <div class="Image_Wrapper" data-caption="Use your business skills in real projects">
@@ -69,19 +64,29 @@
                         <img class="img-responsive" src="images/we_see_opportunity.jpg" />
                     </a>
                 </div>
-                <div class="Image_Wrapper" data-caption="Our president Amy McMillen <a href='https://pbs.twimg.com/media/BtIAMEoCMAAJ48C.jpg'>link</a>">
+                <div class="Image_Wrapper" data-caption="2016 Regional Champions">
                     <a>
-                        <img class="img-responsive" src="images/exec/Amy_McMillen.jpg" />
+                        <img class="img-responsive" src="images/Regional_Champions_2016.jpg" />
                     </a>
                 </div>
-                <div class="Image_Wrapper" data-caption="Last year's Enactus exec">
+                <div class="Image_Wrapper" data-caption="2016 Regional Championship Team">
+                    <a>
+                        <img class="img-responsive" src="images/EnactusUSA2.jpg" />
+                    </a>
+                </div>
+                <div class="Image_Wrapper" data-caption="Last year's Enactus executive board">
                     <a>
                         <img class="img-responsive" src="images/exec/group.jpg" />
                     </a>
                 </div>
-                <div class="Image_Wrapper" data-caption="Our project leaders take service seriously">
+                <div class="Image_Wrapper" data-caption="We lead projects that create sustainable change">
                     <a>
                         <img class="img-responsive" src="images/pl/PL_claire.jpg"/>
+                    </a>
+                </div>
+                <div class="Image_Wrapper" data-caption="2013 Regional Champions">
+                    <a>
+                        <img class="img-responsive" src="images/Trophy.jpg" />
                     </a>
                 </div>
                 <div class="Image_Wrapper" data-caption="Our corporate sponsors and partners">
@@ -135,19 +140,18 @@
         <div class="col-md-10">
             <div class="col-md-6">
                 <center>
-                    <img class="img-responsive" src="images/exec/group.jpg" width=500px/>
+                    <img class="img-responsive" src="images/EnactusUSA1.jpg" width=500px/>
                 </center>
             </div>
             <div class="col-md-6" style="margin-top:4%;">
                 <h1>Turn ideas into action.</h1>
                 We have seven local projects that let you meet with clients face to face and work on real problems with real solutions.
 
-                Each of our projects are different. You could learn how to market a business, or
-                you could teach refugees job skills. You could start something new and lead a team of
+                Each of our projects is different. You could learn how to market a business, or help local homeless people find employment. You could start something new and lead a team of
                 your own.
 
                 No matter what project you join, you’ll learn how to work with a team to make a real
-                impact in our community.
+                impact in our community. We also have other general membership opportunities to work with local startups and social ventures.
             </div>
         </div>
         <div class="col-md-1"></div>
@@ -179,41 +183,16 @@
             <div class="col-md-10">
                 <div class="line-break">
                     <center>
-                        Here's what we've been working on:
+                        Here's some of the projects we've been working on:
                     </center>
                 </div>
                 <div class="col-md-4 project_column">
-                    <strong>Giv2Giv</strong><br/>
-
-                    Giv2giv is a social venture designed to solve a critical problem: currently in the U.S.
-                    large charities absorb the
-
-                    majority of donated funds and are able to put them in an endowment for investment,
-                    allowing
-                    idle funds to “grow”;
-
-                    however, smaller charities cannot do this and they are forced to put more energy into
-                    seeking for funds constantly.
-
-                    Giv2giv.org aims to make it possible for every person, every organization, regardless of
-                    their net worth, to be able to
-
-                    have a “mini endowment” that grows overtime and eventually become self­sustainable.
+                    <strong>High School Case Competition</strong><br/>
+                    High School Case Competition (HSCC) works to give back to the community through the use of free student run consulting services. Each year the competition gives an opportunity to high school students to gain real life exposure in the consulting field by organizing a case competition at McIntire School of Commerce.The project team works side by side with local Charlottesville businesses to come up with the case that asks for the best method to improve that business either financially or through new forms of exposure. Related tasks for the team include business relations, securing the sponsorship, event planning, budgeting and strategic cost management.
                 </div>
                 <div class="col-md-4 project_column">
-                    <strong>Women in Entrepreneurship</strong>
-                    <br/>
-                    Women in
-                    Entrepreneurship
-                    assists local business run by female entrepreneurs with many aspects of the business
-                    development. This year the client is a female consultant whose business is specialized
-                    in
-                    consulting services on wardrobe consulting (e.g. how to wear clothes that match the hair
-                    color)
-                    and career development. The team will have close interaction with the client and assist
-                    its need
-                    along the time to ensure that the business is able to bring social impact to the
-                    community.
+                    <strong>Women in Entrepreneurship</strong><br/>
+                    Women in Entrepreneurship assists local businesses run by female entrepreneurs with various aspects of business development. This year, the client is Modatrova (www.modatrova.com), a fashion startup founded by a 4th year Commerce student. Fashion designers upload their designs, people vote for their favorites, then only the top designs go into production and displayed on the e-commerce website. Bridging the gap between designers and shoppers, Modatrova serves as a platform for designers and customers to optimize the fashion experience. 
                 </div>
                 <div class="col-md-4 project_column">
                     <strong>Tranlin</strong><br/>

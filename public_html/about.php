@@ -68,28 +68,24 @@
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <center>
-                        <img class="team" src="images/exec/Rahul_Kapoor.jpg"/>
-                        <p class="name"> Rahul Kapoor,<br/><em>Vice President of Projects</em></p>
-                    </center>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <center>
                         <img class="team" src="images/exec/Emmy_Hodges.jpg"/>
                         <p class="name"> Emmy Hodges,<br/><em>Vice President of Marketing</em></p>
                     </center>
                 </div>
+                <div class="col-md-2"></div>
                 <div class="col-md-4 col-sm-6">
                     <center>
                         <img class="team" src="images/exec/Penny_Xu.jpg"/>
                         <p class="name"> Penny Xu,<br/><em>Vice President of Finance</em></p>
                     </center>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-12">
                     <center>
                         <img class="team" src="images/exec/Augustus_Huang.jpg"/>
                         <p class="name"> Augustus Huang,<br/><em>Vice President of Corporate Relations</em></p>
                     </center>
                 </div>
+                <div class="col-md-2"></div>
             </div>
         </div>
         <div class="col-md-1"></div>

@@ -42,17 +42,20 @@
     <div class="col-md-1"></div>
     <div class="col-md-10">
       <center>
-        <h2>Applications will open Sunday, September 4th.</h2>
+        <h3>General member and project member applications will open Sunday, September 4th.</h3><br/>
+        <p style="font-size:1.5em; padding-left:5px; padding-right:5px;">Info sessions will be on Monday, September 5th at 6:30pm and Tuesday, September 6th at 6pm in RRH 256. Pizza will be provided!</p>
       </center>
     </div>
     <div class="col-md-1"></div>
   </div>
 
-  <div class="row" style="padding-top: 50px; padding-bottom: 40px;">
+  <div class="row" style="padding-top: 50px; padding-bottom: 60px;">
     <div class="col-md-1"></div>
     <div class="col-md-10">
       <div class="col-md-6">
-          <img class="img-responsive" src="images/seb-sun.JPG" width=500px/>
+        <center>
+          <img class="img-responsive" src="images/hands_in.JPG" width=500px/>
+        </center>
       </div>
 
       <div class="col-md-6">

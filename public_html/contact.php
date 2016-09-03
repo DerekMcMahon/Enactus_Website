@@ -91,6 +91,7 @@
       </div>
       <div class="col-md-1"></div>
       <div class="col-md-5">
+        <center>
         <table>
           <tr>
             <td><p> Emmy Hodges,<br/><em>VP of Marketing</em></p></td>
@@ -105,6 +106,7 @@
             <td>ash5hb@virginia.edu </td>
           </tr>
         </table>
+        </center>
       </div>
     </div>
     <div class="col-md-2"></div>
